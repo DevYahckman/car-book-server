@@ -28,4 +28,11 @@ router.put("/:id", async (req, res) => {
   res.send(blog)
 });
 
+router.delete('/:id', async(req,res)=>{
+    const blog = await Blog.findByIdAndRemove(req.params.id)
+    if(!blog) return res.status(404).send('The car is not available')
+    res.send(blog)
+})
+
+
 module.exports = router;
