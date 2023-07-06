@@ -4,6 +4,7 @@ const { Car, validate } = require("../model/car");
 const _ = require("lodash");
 
 router.get("/", async (req, res) => {
+    // throw new Error('There is an error')
   const cars = await Car.find();
   res.send(cars);
 });
