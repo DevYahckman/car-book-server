@@ -8,12 +8,14 @@ const mongoose = require("mongoose");
 const users = require("./routes/users");
 const auth = require("./routes/auth");
 const cars = require("./routes/cars");
+const blogs = require("./routes/blogs");
 const error = require("./middleware/error");
 
 app.use(express.json());
 app.use("/api/users", users);
 app.use("/api/auth", auth);
 app.use("/api/cars", cars);
+app.use("/api/blogs", blogs);
 app.use(error);
 
 global.logger = winston.createLogger({
