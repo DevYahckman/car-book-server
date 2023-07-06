@@ -14,5 +14,11 @@ function validateCar(car){
         description:Joi.string().required().min(10)
     })
 
-    return Joi
+    return schema.validate(car)
 }
+
+
+
+exports.carSchema= carSchema
+exports.Car= Car
+exports.validate = validateCar
