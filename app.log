@@ -92,3 +92,4 @@
 2023-07-19T09:31:11.154Z error: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Car" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Car"
 2023-07-19T09:31:33.943Z error: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Car" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Car"
 2023-07-19T09:31:33.990Z error: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Car" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Car"
+2023-07-21T15:09:21.029Z error: user is not allowed to do action [find] on [test.blogs] user is not allowed to do action [find] on [test.blogs]

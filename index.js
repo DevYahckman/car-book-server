@@ -49,9 +49,9 @@ global.logger = winston.createLogger({
     new winston.transports.File({ filename: "app.log" }),
   ],
 });
-
+const uri= 'mongodb+srv://adeniranyaqub565:adeniran@cluster0.rvy8scb.mongodb.net/'
 mongoose
-  .connect("mongodb://127.0.0.1:27017/car-book", {
+  .connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
