@@ -6,7 +6,6 @@ const userSchema = new mongoose.Schema({
   name: { type: String, required: true },
   email: { type: String, unique: true, required: true },
   phone: { type: Number, required: true },
-  specialRequest: { type: String },
   password: { type: String, required: true },
 });
 
@@ -22,7 +21,6 @@ function validateUser(user) {
     name: Joi.string().required(),
     email: Joi.string().required(),
     phone: Joi.number().required(),
-    specialRequest: Joi.string(),
     password: Joi.string().required(),
   });
 

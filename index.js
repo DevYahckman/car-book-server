@@ -14,15 +14,17 @@ const error = require("./middleware/error");
 const cors = require("cors");
 const multer = require("multer");
 const path = require("path");
-const { string } = require("joi");
+// const { string } = require("joi");
 
 app.use(express.json({ limit: "50mb" }));
 // photo
 app.use(express.static("public"));
-app.use(express.urlencoded({ extended: true, limit: "50mb" }));
+// app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 // app.set('view engine' , 'ejs')
 //
-app.use(cors());
+app.use(cors({
+  origin: ['https://car-book.vercel.app', 'http://localhost:3000']
+}));
 app.use(express.static("public"));
 app.use("/api/users", users);
 app.use("/api/auth", auth);
