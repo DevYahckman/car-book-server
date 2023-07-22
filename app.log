@@ -93,3 +93,25 @@
 2023-07-19T09:31:33.943Z error: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Car" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Car"
 2023-07-19T09:31:33.990Z error: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Car" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Car"
 2023-07-21T15:09:21.029Z error: user is not allowed to do action [find] on [test.blogs] user is not allowed to do action [find] on [test.blogs]
+2023-07-21T15:41:24.867Z error: Unexpected number in JSON at position 89 Unexpected number in JSON at position 89
+2023-07-21T15:45:27.447Z error: Unexpected token } in JSON at position 169 Unexpected token } in JSON at position 169
+2023-07-21T15:45:45.708Z error: Unexpected token } in JSON at position 143 Unexpected token } in JSON at position 143
+2023-07-21T15:55:32.935Z error: getaddrinfo ENOTFOUND ac-4rytqru-shard-00-02.rvy8scb.mongodb.net getaddrinfo ENOTFOUND ac-4rytqru-shard-00-02.rvy8scb.mongodb.net
+2023-07-21T15:55:49.820Z error: getaddrinfo ENOTFOUND ac-4rytqru-shard-00-02.rvy8scb.mongodb.net getaddrinfo ENOTFOUND ac-4rytqru-shard-00-02.rvy8scb.mongodb.net
+2023-07-21T15:56:02.755Z error: getaddrinfo ENOTFOUND ac-4rytqru-shard-00-02.rvy8scb.mongodb.net getaddrinfo ENOTFOUND ac-4rytqru-shard-00-02.rvy8scb.mongodb.net
+2023-07-22T08:37:32.527Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:37:37.314Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:37:47.346Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:37:56.313Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:38:08.668Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:38:18.689Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:38:49.979Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:39:00.005Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:40:21.408Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:40:27.481Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:40:38.180Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:40:56.968Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:41:07.203Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:41:17.683Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T08:41:27.712Z error: Operation `cars.find()` buffering timed out after 10000ms Operation `cars.find()` buffering timed out after 10000ms
+2023-07-22T09:14:52.171Z error: Operation `messages.insertOne()` buffering timed out after 10000ms Operation `messages.insertOne()` buffering timed out after 10000ms

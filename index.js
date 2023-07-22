@@ -9,6 +9,7 @@ const users = require("./routes/users");
 const auth = require("./routes/auth");
 const cars = require("./routes/cars");
 const blogs = require("./routes/blogs");
+const messages = require('./routes/messages')
 const error = require("./middleware/error");
 const cors = require("cors");
 const multer = require("multer");
@@ -27,6 +28,7 @@ app.use("/api/users", users);
 app.use("/api/auth", auth);
 app.use("/api/cars", cars);
 app.use("/api/blogs", blogs);
+app.use('/api/messages', messages)
 app.use(error);
 
 app.use("/", (req, res) => {

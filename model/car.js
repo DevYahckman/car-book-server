@@ -28,7 +28,7 @@ function validateCar(car) {
     dayPrice: Joi.number().required(),
     weekPrice: Joi.number().required(),
     monthPrice: Joi.number().required(),
-    carDetails: Joi.array().required(),
+    carDetails: Joi.array(),
   });
 
   return schema.validate(car);
